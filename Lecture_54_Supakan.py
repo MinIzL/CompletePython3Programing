@@ -33,6 +33,6 @@ def priceCalculator():
 
 def vatCalculator(Summary):
     vat = 7
-    vatCalculator = print(Summary+(Summary*vat)/100)
+    total = print(Summary+(Summary*vat)/100)
 
 login()
